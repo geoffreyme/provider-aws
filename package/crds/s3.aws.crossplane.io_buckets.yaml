@@ -1963,8 +1963,6 @@ spec:
                                               type: string
                                           type: object
                                       type: object
-                                  required:
-                                  - replicaKmsKeyId
                                   type: object
                                 metrics:
                                   description: |-

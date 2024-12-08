@@ -210,6 +210,7 @@ type EncryptionConfiguration struct {
 	// Symmetric and Asymmetric Keys (https://docs.aws.amazon.com/kms/latest/developerguide/symmetric-asymmetric.html)
 	// in the AWS Key Management Service Developer Guide.
 	// +crossplane:generate:reference:type=github.com/crossplane-contrib/provider-aws/apis/kms/v1alpha1.Key
+	// +optional
 	ReplicaKmsKeyID *string `json:"replicaKmsKeyId"`
 
 	// ReplicaKmsKeyIDRef references an KMSKey to retrieve its ID
